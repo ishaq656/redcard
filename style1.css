@@ -39,8 +39,8 @@
       }
       .left {
         width: 40%;
-        margin-left: 10%;
-        margin-top: 18%;
+        margin-left: 7.8%;
+        margin-top: 22%;
       }
       .left p {
         margin: 2%;
@@ -70,11 +70,11 @@
       }
 
       .input {
-        width: 90%;
+        width: 92%;
         height: 20px;
-        padding: 20px 20px;
+        padding: 30px 20px;
         background-color: #8e2c2c;
-        outline: 1px solid white;
+        border: 2px solid white;
         color: white;
       }
       .input::placeholder {
@@ -82,11 +82,11 @@
         opacity: 1;
       }
       .inp {
-        width: 100%;
+        width: 92%;
         height: 15%;
-        padding: 0px 10px 70px 10px;
+        padding: 0px 10px 50px 10px;
         background-color: #8e2c2c;
-        outline: 1px solid white;
+        border: 2px solid white;
       }
       .inp::placeholder {
         color: white;
@@ -96,3 +96,75 @@
         align-items: baseline;
         gap:50px;
       }
+      #fiif{
+          font-family: MyFont,sans-serif;
+            font-weight: bold;
+            font-size: 87px;
+            color: white;
+            margin-top: 2%;
+            margin-left: 2%;
+            margin-bottom: -2%;
+      }
+      #fijf{
+          font-family: MyFoot, sans-serif;
+            font-size: 17.7px;
+            color: black;
+            line-height: 28px;
+            margin-left: 2%;
+      }
+      #fikf{
+          font-family: MyFont, sans-serif;
+            font-weight: bold;
+            font-size: 28px;
+            color: black;
+            margin-top: 3%;
+            margin-left: 2%;
+            margin-bottom: -2%;
+            
+      }
+      /*--------------test area css------------------*/
+      .checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.checkbox {
+  position: relative;
+  padding-left: 28px;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+}
+
+.checkmark {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 18px;
+  height: 18px;
+  border: 2px solid white;
+  background-color: transparent;
+}
+.checkbox input:checked ~ .checkmark {
+  background-color: white;
+}
+.checkmark::after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.checkbox input:checked ~ .checkmark::after {
+  display: block;
+}
+
+.checkmark::after {
+  left: 5px;
+  top: 1px;
+  width: 4px;
+  height: 9px;
+  border: solid #8e2c2c;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+

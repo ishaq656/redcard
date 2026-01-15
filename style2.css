@@ -51,22 +51,22 @@
       header h2 {
         font-family: "MyFont", Helvetica, sans-serif;
         font-size: 56px;
-        margin-bottom :49px;        
+        margin-bottom :52px;        
         margin-left: 8px;
       }
       header p {
         font-family:"MyFoot" , Helvetica, sans-serif;
-        font-size: 25px;
-        letter-spacing: 1px;
+        font-size: 26px;
+        letter-spacing: 1.2px;
        margin-left: 8px;
 
         color: #ffffff;
-        line-height: 36px;
+        line-height: 38px;
       }
       .ppp {
         width: 52px;
         height: 52px;
-        margin-top: 6px;
+        
       }
       #triangle {
         width: 100%;
@@ -83,14 +83,14 @@
         display: flex;
         align-items: center;
         gap: 23px;
-        margin-left: 132px;
-        margin-top: 104px;
+        margin-left: 140px;
+        margin-top: 116px;
       }
 
       .long h1 {
-        font-family: Arial black;
-        font-size: 80px;
-        letter-spacing: -5px;
+        font-family: "MyFont", Helvetica, sans-serif;
+        font-size: 84px;
+        
     
       }
       .repeat {
@@ -102,6 +102,8 @@
    }
       .lorem{
         text-align: center;
+        font-family: 'MyFoot';
+        font-size: 20px;
       }
       .masala{
         display: flex;
@@ -109,8 +111,10 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 38px;
-        
+        gap: 33px;
+        letter-spacing: 1.5px;
+        color: #8e2c2c;
+
       }
       .a{
         margin-bottom: 150px;
@@ -132,12 +136,16 @@
       
       }
       .Last{
-        font-family: Arial black, Helvetica, sans-serif;
-        font-size: 29px;
+        font-family: "MyFont", Helvetica, sans-serif;
+        font-size: 31px;
         color: #ffffff;
         margin-top: 36px;
-        letter-spacing: -2px;
+        
         margin-left: 132px;
-        padding-top: 140px;
+        padding-top: 118px;
         padding-bottom: 118px;
+      }
+      .black{
+        font-family: "MyFoot", Helvetica, sans-serif;
+        color:black
       }
