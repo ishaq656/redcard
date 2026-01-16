@@ -38,7 +38,7 @@
         font-style: normal;
       }
       .left {
-        width: 40%;
+        width: 45%;
         margin-left: 7.8%;
         margin-top: 22%;
       }
@@ -50,7 +50,7 @@
         min-height: 100vh;
         background-color: #8e2c2c;
         border-left: 25px solid white;
-        gap: 120px;
+        gap: 174px;
       }
       .right {
         width: 50%;
@@ -61,7 +61,7 @@
         height: 100%;
       }
       form {
-        margin-top: 7%;margin-bottom: 15%;
+        margin-top: 13%;margin-bottom: 15%;
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -72,7 +72,7 @@
       .input {
         width: 92%;
         height: 20px;
-        padding: 30px 20px;
+        padding: 27px 20px;
         background-color: #8e2c2c;
         border: 2px solid white;
         color: white;
@@ -107,7 +107,7 @@
       }
       #fijf{
           font-family: MyFoot, sans-serif;
-            font-size: 17.7px;
+            font-size: 17.5px;
             color: black;
             line-height: 28px;
             margin-left: 2%;
@@ -133,6 +133,7 @@
   padding-left: 28px;
   cursor: pointer;
   font-size: 16px;
+  font-family: 'Myfoot';
   color: white;
 }
 
@@ -140,9 +141,9 @@
   position: absolute;
   left: 0;
   top: 2px;
-  width: 18px;
-  height: 18px;
-  border: 2px solid white;
+  width: 14px;
+  height: 14px;
+  border: 1px solid white;
   background-color: transparent;
 }
 .checkbox input:checked ~ .checkmark {
